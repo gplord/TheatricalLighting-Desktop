@@ -1,0 +1,281 @@
+{
+  "type": "Scene",
+  "active": true,
+  "stage": {
+    "type": "Stage",
+    "width": 100,
+    "depth": 50,
+    "height": 20
+  },
+  "house": {
+    "type": "House",
+    "width": 250,
+    "depth": 250,
+    "height": 80,
+	"position": {
+        "x": 0,
+        "y": -10,
+        "z": 70
+    }
+  },
+  "rails": [
+    {
+      "type": "Rail",
+      "width": 90,
+      "position": {
+        "x": 0,
+        "y": 35,
+        "z": -25
+      },
+      "lights": [
+        {
+          "type": "Light",
+          "active": true,
+          "position": -0.8,
+          "intensity": 0.5,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": -0.4,
+          "intensity": 0.75,
+          "gobo": 1,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0,
+          "intensity": 1,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0.4,
+          "intensity": 0.75,
+          "gobo": 2,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0.8,
+          "intensity": 0.25,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        }
+      ]
+    },
+    {
+      "type": "Rail",
+      "width": 80,
+      "position": {
+        "x": 0,
+        "y": 40,
+        "z": -20
+      },
+      "lights": [
+        {
+          "type": "Light",
+          "active": true,
+          "position": -0.75,
+          "intensity": 1,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": -0.3,
+          "intensity": 0.5,
+          "gobo": 1,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0,
+          "intensity": 0.1,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0.2,
+          "intensity": 0.2,
+          "gobo": 2,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 255
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0.5,
+          "intensity": 1,
+          "gobo": 0,
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          }
+        }
+      ]
+    },
+
+
+	{
+      "type": "Rail",
+      "width": 60,
+      "position": {
+        "x": 0,
+        "y": 45,
+        "z": 10
+      },
+      "lights": [
+        {
+          "type": "Light",
+          "active": true,
+          "position": -0.5,
+          "intensity": 0.5,
+          "gobo": 0,
+          "rotation": {
+            "x": 75,
+            "y": 30,
+            "z": 0
+          },
+          "color": {
+            "r": 255,
+            "g": 0,
+            "b": 0
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 0.5,
+          "intensity": 0.5,
+          "gobo": 1,
+          "rotation": {
+            "x": 60,
+            "y": -15,
+            "z": 0
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0
+          }
+        },
+        {
+          "type": "Light",
+          "active": true,
+          "position": 1,
+          "intensity": 0.5,
+          "gobo": 1,
+          "rotation": {
+            "x": 60,
+            "y": -15,
+            "z": 0
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 255
+          }
+        }
+      ]
+    }
+
+
+  ]
+}
